@@ -1,16 +1,24 @@
-/* App.css */
+.app-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; /* full height of screen */
+}
+
 .header {
   margin: 0 auto;
+  width: 100%;
   background-color: #0A5C36;
   text-align: center; 
-  padding: 20px; 
+  padding: 40px; 
   color: white; 
 }
 
 .footer {
   margin: 0 auto;
+  margin-top: auto;
   background-color: #0A5C36;
   text-align: center; 
   padding: 20px; 
+    width: 100%;
   color: white; 
 }
