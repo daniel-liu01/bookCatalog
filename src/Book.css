@@ -1,0 +1,43 @@
+.books {
+  display: flex;
+  flex-direction: rowq;
+  align-items: center;
+  width: 25%;
+  gap: 20px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  background: white;
+}
+
+.book-cover {
+  width: 100%;
+  display: block;
+}q
+
+.book-info {
+  width: 100%;
+  text-align: center;
+}
+
+.author {
+  margin: 0;
+  padding: 0.5rem;
+  background-color: #666;
+  color: white;
+  font-size: 1rem;
+  font-weight: bold;
+  text-align: center;
+}
+
+
+.learn-more {
+  display: block;
+  padding: 0.75rem;
+  text-align: center;
+  background-color: #1d2a4d;
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background-color 0.2s ease;
+}

@@ -15,6 +15,11 @@ function App() {
     cover="/public/breath.jpg" 
     author="by Paul Kalanithi" 
   />
+  <Book 
+    cover="/public/butter.jpg" 
+    author="by Asako Yuzuki" 
+  />
+  
   
       </div>
 
