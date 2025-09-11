@@ -18,11 +18,11 @@ function App() {
   </button>
 </div>
         <Book 
-    cover="/public/breath.jpg" 
+    cover="/breath.jpg" 
     author="by Paul Kalanithi" 
   />
   <Book 
-    cover="/public/butter.jpg" 
+    cover="/butter.jpg" 
     author="by Asako Yuzuki" 
   />
 
