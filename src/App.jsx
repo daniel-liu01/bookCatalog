@@ -13,8 +13,10 @@ function App() {
       <div className="books">
          
          <div className="new">
-    <a>New</a>
-  </div>
+  <button className="new-button" onClick={() => alert('New clicked!')}>
+    New
+  </button>
+</div>
         <Book 
     cover="/public/breath.jpg" 
     author="by Paul Kalanithi" 
