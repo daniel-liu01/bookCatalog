@@ -11,6 +11,10 @@ function App() {
       <h1 className="header">Book Catalog</h1>
       
       <div className="books">
+         
+         <div className="new">
+    <a>New</a>
+  </div>
         <Book 
     cover="/public/breath.jpg" 
     author="by Paul Kalanithi" 

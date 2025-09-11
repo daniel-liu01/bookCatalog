@@ -1,7 +1,7 @@
 .app-container {
   display: flex;
   flex-direction: column;
-  min-height: 100vh; /* full height of screen */
+  min-height: 100vh; 
 }
 
 .header {
@@ -21,4 +21,8 @@
   padding: 20px; 
     width: 100%;
   color: white; 
+}
+
+.footer-content {
+  margin: 0 auto;
 }
