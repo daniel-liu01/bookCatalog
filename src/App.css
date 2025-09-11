@@ -11,6 +11,7 @@
   text-align: center; 
   padding: 40px; 
   color: white; 
+  border-bottom: 12px solid #a8e6cf;
 }
 
 .footer {
@@ -18,7 +19,7 @@
   margin-top: auto;
   background-color: #0A5C36;
   text-align: center; 
-  padding: 20px; 
+  padding: 40px; 
     width: 100%;
   color: white; 
 }
