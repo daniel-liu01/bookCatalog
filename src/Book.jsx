@@ -1,16 +1,17 @@
 import React from 'react';
 import './Book.css'; 
+import Books from "./data/books.json"
 
-const Book = ({ cover, author, more }) => {
+const Book = ({ image, price, url }) => {
   return (
     <div className="book">
-      <img src={cover} alt={`book-cover`} className="book-cover" />
+      <img src={image} alt="book-cover" className="book-cover" />
       <div className="book-info">
-        <h3 className="author">{author}</h3>
-        <a 
-          href={more} 
-          className="learn-more" 
-          target="_blank" 
+        <p className="price">{price}</p>
+        <a
+          href={url}
+          className="learn-more"
+          target="_blank"
           rel="noopener noreferrer"
         >
           Learn More
@@ -21,3 +22,4 @@ const Book = ({ cover, author, more }) => {
 };
 
 export default Book;
+
